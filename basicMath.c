@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include "myMath.h"
+
+
 
 float  add(float x , float y)
 {

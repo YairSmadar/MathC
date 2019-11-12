@@ -1,4 +1,5 @@
 #define e 2.71828
+#include "myMath.h"
 
 double Exp(int x) {
 double ans = e;
@@ -11,7 +12,7 @@ while (counter != x)
 return ans;
 }
 
-double pow(double x , int y){
+double Pow(double x , int y){
     double ans = x ;
     int counter = 0 ;
     while (counter != y)
