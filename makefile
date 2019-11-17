@@ -31,4 +31,4 @@ main.o:main.c myMath.h
 .PHONY:clean 
 
 clean:
-	rm -f *.o *.a *.so
+	rm -f *.o *.a *.so mains maind
